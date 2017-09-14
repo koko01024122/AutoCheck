@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <declare-styleable name="ACEditText">
+        <attr name="ACEditTag" format="string"/>
+        <attr name="ACEditNullable" format="boolean"/>
+        <attr name="ACEditErrorHint" format="string"></attr>
+        <attr name="ACEditRule" format="string"/>
+        <attr name="ACEditNullHint" format="string"/>
+        <attr name="ACEditViewId" format="string"/>
+        <attr name="ACEditRelyMode" format="integer"/>
+        <attr name="ACEditName" format="string"/>
+    </declare-styleable>
+
+    <declare-styleable name="ACTextView">
+        <attr name="ACTextTag" format="string"/>
+        <attr name="ACTextNullable" format="boolean"/>
+        <attr name="ACTextErrorHint" format="string"></attr>
+        <attr name="ACTextRule" format="string"/>
+        <attr name="ACTextNullHint" format="string"/>
+        <attr name="ACTextViewId" format="string"/>
+        <attr name="ACTextRelyMode" format="integer"/>
+        <attr name="ACTextName" format="string"/>
+    </declare-styleable>
+
+
+
+
+</resources>
