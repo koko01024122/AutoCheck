@@ -184,16 +184,16 @@ CheckViewGroupImpl
 |getHintView()|Object|如果其不为最外圈提示view，获取其内部的提示控件
 |setHintView()|Object|为其设置提示控件。
 
- CheckViewRuleImpl\<T>
+ CheckViewRuleImpl
 | 属性名    | 值类型 | 说明                                                           |
 | --------- | ------ | -------------------------------------------------------------- |
 |relyMode|int| 该View的依赖模式，当该View的依赖列表不为空时，应先对依赖的View进行check，当值为 Modes.RELY_ON_MODE_WITH 时，需要全部依赖都满足才可进行自身的check,当值为Modes.RELY_ON_MODE_OR 时，只要有一个满足即可通过进行自身校验。
 |finalHint|String|最终的提示信息
-|relyOnList|ArrayList\<Object>|依赖列表
+|relyOnList|ArrayList(Object)|依赖列表
 |tag|String|用于其他作用的标签
 |rule|String|正则校验规则
 |nullable|boolen|是否允许为空
-|notBeList|ArrayList\<Stringt>|不允许的值列表
+|notBeList|ArrayList(String)|不允许的值列表
 |nullHint|String|nullable为false时内容为空的提示。
 |errorHint|String|不符合规则时的错误信息提示
 |一干set方法|T|此处使用了泛型，是为了方便使用时的链式调用，set后返回的是当前的对象
